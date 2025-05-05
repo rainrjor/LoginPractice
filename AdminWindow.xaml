@@ -1,0 +1,14 @@
+﻿<Window x:Class="LoginPractice.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginPractice"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="642,50,0,0" VerticalAlignment="Top" Height="34" Width="64" Click="btnLogout_Click" />
+        <Label Content="Welcome, Admin !" HorizontalAlignment="Left" Margin="66,149,0,0" VerticalAlignment="Top" Height="68" Width="351" FontSize="36" RenderTransformOrigin="0.423,1.243"/>
+
+    </Grid>
+</Window>
